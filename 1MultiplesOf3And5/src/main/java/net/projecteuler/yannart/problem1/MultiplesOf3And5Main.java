@@ -13,16 +13,25 @@ package net.projecteuler.yannart.problem1;
  */
 public class MultiplesOf3And5Main {
 
+	/**
+	 * Do the sum of the numbers multiples of 3 or 5 below the limit number.
+	 * 
+	 * @param limitNum
+	 *            limit number.
+	 * @return sum
+	 */
 	public static int findSumMultiples3And5(int limitNum) {
 
 		int sum = 0;
 
 		for (int i = 0; i < limitNum; i++) {
+
+			// Use modulo to find multiples
 			if (i % 3 == 0 || i % 5 == 0) {
 				sum += i;
 			}
 		}
-		
+
 		return sum;
 	}
 }

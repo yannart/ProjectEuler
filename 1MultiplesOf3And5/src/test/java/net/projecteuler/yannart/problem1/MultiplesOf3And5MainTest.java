@@ -20,7 +20,7 @@ public class MultiplesOf3And5MainTest {
 	@Test
 	public void testFindSumMultiples3And5Example() {
 		
-		// Example from the problem description
+		// Example from the problem description, the numbers are below 10
 		assertEquals(23, MultiplesOf3And5Main.findSumMultiples3And5(10));
 	}
 	
@@ -30,7 +30,7 @@ public class MultiplesOf3And5MainTest {
 	@Test
 	public void testFindSumMultiples3And5() {
 		
-		// Problem to solve
+		// Problem to solve, the numbers are below 1000
 		assertEquals(233168, MultiplesOf3And5Main.findSumMultiples3And5(1000));
 	}
 
