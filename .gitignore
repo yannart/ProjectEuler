@@ -4,3 +4,13 @@
 *.jar
 *.war
 *.ear
+
+# Eclipse configuration files #
+.metadata
+RemoteSystemsTempFiles
+.settings
+target
+.classpath
+.project
+
+
